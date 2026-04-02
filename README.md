@@ -16,6 +16,21 @@ Built for PersonaAudit.com, but designed to be reusable across any SaaS project 
 
 ---
 
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Runtime** | Node.js + TypeScript (`ts-node`) |
+| **AI — Script & Prompts** | Anthropic Claude (claude-sonnet-4-6) |
+| **AI — Image Generation** | fal.ai — Ideogram v3 |
+| **AI — Animation** | fal.ai — Kling 2.5 Turbo (image-to-video) |
+| **AI — Voice** | ElevenLabs (`eleven_turbo_v2_5`) with character-level timestamps |
+| **B-Roll** | Pexels Videos API |
+| **Video Assembly** | FFmpeg (concat, Ken Burns, ASS subtitle burn-in) |
+| **Avatar Lip Sync** | HeyGen (future) |
+
+---
+
 ## Setup
 
 ```bash
