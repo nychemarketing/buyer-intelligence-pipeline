@@ -8,10 +8,11 @@ Built for PersonaAudit.com, but designed to be reusable across any SaaS project 
 
 ## What it does
 
-1. Maintains a library of 52 industries and 15 buyer archetypes
+1. Maintains a library of 56 industries and 15 buyer archetypes
 2. Auto-enriches minimal industry entries via Claude (buyer profiles, b-roll queries, hashtags)
 3. Generates 30-second video scripts tailored to 5 buyer types per industry
 4. Outputs production briefs with b-roll direction, text overlays, and captions for TikTok, Instagram, and Facebook
+5. **Generates full TikTok/Reel/Short videos** — Frankenstein hook clip + synced b-roll + ElevenLabs voiceover + burned-in captions
 
 ---
 
@@ -164,13 +165,50 @@ See [CHANGELOG.md](CHANGELOG.md) for a full history of changes.
 
 ---
 
-## Phase 3 (coming soon)
+## Frankenstein Video Pipeline
 
-Phase 3 adds HeyGen video generation and Pexels b-roll stitching. Requires:
-- `HEYGEN_API_KEY` — for avatar video generation
-- `PEXELS_API_KEY` — for b-roll clip search and download
+Generates ready-to-post vertical videos (720×1280, 9:16) for each industry.
 
-Once Phase 3 is implemented, the pipeline will produce ready-to-post `.mp4` files per industry per avatar.
+```bash
+# 1. Generate Frankenstein image prompt for an industry
+npx ts-node scripts/generate-frankenstein-prompts.ts --slug roofer
+
+# 2. Generate the image (fal.ai Ideogram v3)
+npx ts-node scripts/generate-frankenstein-image.ts --industry roofer
+
+# 3. Animate the image into a 5s clip (fal.ai Kling 2.5 Turbo)
+npx ts-node scripts/animate-frankenstein.ts --industry roofer
+
+# 4. Generate voiceover with timestamps (ElevenLabs)
+npx ts-node scripts/generate-voice.ts --industry roofer
+
+# 5. Download b-roll per buyer persona (Pexels)
+npx ts-node scripts/fetch-broll.ts --industry roofer
+
+# 6. Assemble full video (FFmpeg)
+npx ts-node scripts/assemble-video.ts --industry roofer
+
+# Batch generate all images at once (concurrency 2 by default)
+npx ts-node scripts/batch-generate-images.ts --concurrency 4
+```
+
+**Required env vars for video pipeline:**
+```
+FAL_API_KEY=
+ELEVENLABS_API_KEY=
+PEXELS_API_KEY=
+FRANKENSTEIN_REFERENCE_IMAGE_URL=   # optional, improves character consistency
+```
+
+**Output files:**
+```
+output/images/{slug}-frankenstein.jpg   — generated still image
+output/clips/{slug}-frankenstein.mp4    — 5s animated hook clip
+output/audio/{slug}-{avatar}.mp3        — voiceover
+output/audio/{slug}-{avatar}.timing.json — segment timestamps
+output/broll/{slug}/{archetypeId}.mp4   — b-roll per buyer
+output/videos/{slug}-{avatar}.mp4       — final assembled video
+```
 
 ---
 
@@ -187,13 +225,24 @@ Once Phase 3 is implemented, the pipeline will produce ready-to-post `.mp4` file
   caption.template.txt   — TikTok/Instagram/Facebook caption template
 
 /scripts
-  enrich-industry.ts     — Claude enrichment logic
-  generate-scripts.ts    — Script JSON builder
-  generate-briefs.ts     — Markdown brief generator
-  pipeline.ts            — CLI orchestrator
+  enrich-industry.ts              — Claude enrichment logic
+  generate-scripts.ts             — Script JSON builder
+  generate-briefs.ts              — Markdown brief generator
+  pipeline.ts                     — CLI orchestrator
+  generate-frankenstein-prompts.ts — Claude prompt writer (Frankenstein scenes)
+  generate-frankenstein-image.ts  — fal.ai image generation (Ideogram v3)
+  batch-generate-images.ts        — Batch image generation for all industries
+  animate-frankenstein.ts         — fal.ai animation (Kling 2.5 Turbo)
+  generate-voice.ts               — ElevenLabs TTS with character timestamps
+  fetch-broll.ts                  — Pexels b-roll downloader per buyer
+  assemble-video.ts               — FFmpeg video assembly
 
 /output
-  scripts/               — Generated script JSONs (gitignored)
-  briefs/                — Generated brief markdowns (gitignored)
-  master-scripts.md      — All scripts in one doc (gitignored)
+  scripts/               — Script JSONs with Frankenstein prompts
+  images/                — Frankenstein still images
+  clips/                 — 5s animated hook clips
+  audio/                 — Voiceover MP3s + timing JSONs
+  broll/                 — B-roll clips per industry/buyer
+  videos/                — Final assembled videos
+  briefs/                — Production markdown briefs
 ```

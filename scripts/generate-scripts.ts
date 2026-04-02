@@ -32,6 +32,7 @@ export interface ScriptOutput {
     instagram: string;
     facebook: string;
   };
+  frankensteinPrompt?: string;
   generatedAt: string;
 }
 
@@ -57,7 +58,7 @@ function buildHashtagString(
   industry: Industry,
   platform: 'tiktok' | 'instagram' | 'facebook'
 ): string {
-  const coreTags = ['#buyerintelligence', '#personaaudit', '#buyerlens', '#buyerintelligencesystem'];
+  const coreTags = ['#personaaudit', '#buyerintelligence', '#knowyourbuyer', '#frankensteinpage', '#speaktoeveryone'];
   const reachTags = ['#fyp', '#smallbusinesstips', '#localbusiness', '#marketingstrategy'];
   const categoryTags = industry.hashtags?.category ?? [];
   const industryTags = industry.hashtags?.industry ?? [];

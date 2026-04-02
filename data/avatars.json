@@ -3,11 +3,13 @@
     "id": "angela",
     "displayName": "Angela Irwin",
     "title": "Buyer Intelligence Specialist, PersonaAudit",
-    "heygenAvatarId": "REPLACE_WITH_HEYGEN_ID",
-    "heygenVoiceId": "REPLACE_WITH_HEYGEN_VOICE_ID",
+    "heygenAvatarId": "Annie_Business_Casual_Standing_Front_public",
+    "heygenVoiceId": "330290724a1b470fb63153f34d4c0183",
+    "elevenLabsVoiceId": "XrExE9yKIg1WjnnlVkGX",
+    "elevenLabsVoiceIdTarget": "dfeOmy6Uay63tNhyO99j",
     "gender": "f",
     "active": true,
-    "notes": "Primary avatar — female variant"
+    "notes": "Primary avatar — using Annie (Business Casual Standing Front) with Annie - Lifelike voice for development. Preferred avatar is Olsson (UI ID: 3b700c2d48574599ac1b126d22eacea7) — revisit before going live to check API access."
   },
   {
     "id": "andrew",
