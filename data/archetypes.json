@@ -1,0 +1,122 @@
+[
+  {
+    "id": "urgent",
+    "name": "Urgent buyer",
+    "desc": "Needs it solved now, price secondary",
+    "scriptHook": "needs it fixed NOW",
+    "emotionalState": "stressed, panicking",
+    "visualCue": "person reacting to a problem — hands on head, looking at damage, on the phone"
+  },
+  {
+    "id": "price",
+    "name": "Price buyer",
+    "desc": "Comparing quotes, cost is #1 filter",
+    "scriptHook": "hunting the best deal",
+    "emotionalState": "cautious, calculating",
+    "visualCue": "person on phone or laptop comparing options, looking at a screen with numbers"
+  },
+  {
+    "id": "project",
+    "name": "Project buyer",
+    "desc": "Planned bigger job, researching options",
+    "scriptHook": "planning something bigger",
+    "emotionalState": "organized, research-mode",
+    "visualCue": "person with blueprints, planning documents, or walking through a space imagining changes"
+  },
+  {
+    "id": "repeat",
+    "name": "Repeat buyer",
+    "desc": "Wants reliability, long-term relationship",
+    "scriptHook": "wants someone they can trust every time",
+    "emotionalState": "confident, loyal",
+    "visualCue": "handshake, familiar interaction, returning customer energy"
+  },
+  {
+    "id": "preventative",
+    "name": "Preventative buyer",
+    "desc": "No crisis yet, thinking ahead",
+    "scriptHook": "getting ahead before anything breaks",
+    "emotionalState": "proactive, calm",
+    "visualCue": "person inspecting something carefully, checking, maintaining"
+  },
+  {
+    "id": "firsttime",
+    "name": "First-timer",
+    "desc": "Never bought this before, needs guidance",
+    "scriptHook": "doing this for the first time",
+    "emotionalState": "nervous, uncertain, overwhelmed",
+    "visualCue": "person looking confused or overwhelmed, searching on phone, reading reviews"
+  },
+  {
+    "id": "lifestyle",
+    "name": "Lifestyle buyer",
+    "desc": "Buying identity, not just a service",
+    "scriptHook": "buying who they want to be",
+    "emotionalState": "aspirational, image-conscious",
+    "visualCue": "confident person in aspirational setting, showing result or transformation"
+  },
+  {
+    "id": "investor",
+    "name": "Investor buyer",
+    "desc": "ROI-focused, asset or business lens",
+    "scriptHook": "focused on return, not just the service",
+    "emotionalState": "analytical, strategic",
+    "visualCue": "person reviewing documents or data, business context, property or financial setting"
+  },
+  {
+    "id": "referral",
+    "name": "Referral buyer",
+    "desc": "Came from word of mouth, trust already high",
+    "scriptHook": "already sold, just needs confirmation",
+    "emotionalState": "warm, pre-convinced",
+    "visualCue": "two people talking, one recommending to the other, word-of-mouth energy"
+  },
+  {
+    "id": "luxury",
+    "name": "Luxury buyer",
+    "desc": "Wants the premium option, price signals quality",
+    "scriptHook": "wants the best — not the cheapest",
+    "emotionalState": "discerning, quality-focused",
+    "visualCue": "premium environment, upscale aesthetic, person in high-end setting"
+  },
+  {
+    "id": "skeptic",
+    "name": "Skeptic buyer",
+    "desc": "Been burned before, needs proof",
+    "scriptHook": "been burned before and is very careful",
+    "emotionalState": "guarded, arms-crossed energy",
+    "visualCue": "person with skeptical expression, reading reviews or asking hard questions"
+  },
+  {
+    "id": "diy",
+    "name": "DIY-to-pro buyer",
+    "desc": "Tried to DIY it, now calling a pro",
+    "scriptHook": "tried to do it themselves — now they need help",
+    "emotionalState": "defeated, relieved to ask for help",
+    "visualCue": "person looking at a failed DIY attempt, tools on the ground, calling someone"
+  },
+  {
+    "id": "corporate",
+    "name": "Corporate buyer",
+    "desc": "Buying for a business, needs process and invoicing",
+    "scriptHook": "buying for a business, not themselves",
+    "emotionalState": "professional, process-oriented",
+    "visualCue": "office setting, person in business attire reviewing a proposal or contract"
+  },
+  {
+    "id": "gift",
+    "name": "Gift buyer",
+    "desc": "Buying this for someone else",
+    "scriptHook": "buying this as a gift for someone they care about",
+    "emotionalState": "caring, slightly uncertain about the recipient's preferences",
+    "visualCue": "person wrapping something, presenting a gift, buying for someone else"
+  },
+  {
+    "id": "comeback",
+    "name": "Comeback buyer",
+    "desc": "Lapsed customer returning after a gap",
+    "scriptHook": "coming back after trying somewhere else",
+    "emotionalState": "sheepish, returning with humility",
+    "visualCue": "person returning to a familiar place, reunion energy"
+  }
+]

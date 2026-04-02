@@ -1,0 +1,32 @@
+[
+  {
+    "id": "angela",
+    "displayName": "Angela Irwin",
+    "title": "Buyer Intelligence Specialist, PersonaAudit",
+    "heygenAvatarId": "REPLACE_WITH_HEYGEN_ID",
+    "heygenVoiceId": "REPLACE_WITH_HEYGEN_VOICE_ID",
+    "gender": "f",
+    "active": true,
+    "notes": "Primary avatar — female variant"
+  },
+  {
+    "id": "andrew",
+    "displayName": "Andrew Irons",
+    "title": "Buyer Intelligence Specialist, PersonaAudit",
+    "heygenAvatarId": "REPLACE_WITH_HEYGEN_ID",
+    "heygenVoiceId": "REPLACE_WITH_HEYGEN_VOICE_ID",
+    "gender": "m",
+    "active": true,
+    "notes": "Split test — male variant"
+  },
+  {
+    "id": "nyssa",
+    "displayName": "Nyssa",
+    "title": "Founder, PersonaAudit",
+    "heygenAvatarId": "REPLACE_WITH_HEYGEN_ID",
+    "heygenVoiceId": "REPLACE_WITH_HEYGEN_VOICE_ID",
+    "gender": "f",
+    "active": true,
+    "notes": "Real founder — highest trust, use for conversion-focused posts"
+  }
+]

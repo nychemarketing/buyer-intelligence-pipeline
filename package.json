@@ -1,0 +1,18 @@
+{
+  "name": "buyer-intelligence-pipeline",
+  "version": "1.0.0",
+  "description": "Automated buyer intelligence video script pipeline for PersonaAudit.com",
+  "scripts": {
+    "pipeline": "ts-node scripts/pipeline.ts",
+    "enrich": "ts-node scripts/pipeline.ts --enrich-only",
+    "status": "ts-node scripts/pipeline.ts --status"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}

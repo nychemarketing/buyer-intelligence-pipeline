@@ -1,0 +1,11 @@
+node_modules/
+dist/
+output/scripts/
+output/briefs/
+output/angela/
+output/andrew/
+output/nyssa/
+output/broll-cache.json
+output/master-scripts.md
+.env
+*.log

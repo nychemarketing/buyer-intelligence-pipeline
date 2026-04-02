@@ -1,0 +1,22 @@
+[HOOK — 0–3s]
+Most {{industry_plural}} don't have a content problem… they have a Buyer Intelligence problem.
+
+[SETUP — 3–6s]
+Let's take a {{industry_name}}.
+
+[BUYERS — 6–22s]
+There are 5 types of buyers:
+
+• {{buyer_1_name}} — {{buyer_1_specific}}
+• {{buyer_2_name}} — {{buyer_2_specific}}
+• {{buyer_3_name}} — {{buyer_3_specific}}
+• {{buyer_4_name}} — {{buyer_4_specific}}
+• {{buyer_5_name}} — {{buyer_5_specific}}
+
+[INSIGHT — 22–27s]
+But most {{industry_plural}} use ONE message for ALL of them.
+
+That's why their content doesn't convert.
+
+[CTA — 27–30s]
+Comment "AUDIT" — I'll map your Buyer Intelligence at personaaudit.com

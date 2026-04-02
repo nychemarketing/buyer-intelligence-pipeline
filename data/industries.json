@@ -1,0 +1,2212 @@
+[
+  {
+    "id": "plumber",
+    "name": "Plumber",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "project",
+      "repeat",
+      "preventative"
+    ],
+    "specificLines": {
+      "urgent": "Pipe just burst — flooding NOW",
+      "price": "Calling 5 plumbers for quotes",
+      "project": "Bathroom renovation plumbing",
+      "repeat": "Landlord with 6 units",
+      "preventative": "Annual maintenance check"
+    },
+    "brollIndustryQuery": "plumber fixing pipe home",
+    "brollBuyerQueries": {
+      "urgent": "homeowner burst pipe water flooding",
+      "price": "person comparing prices on phone laptop",
+      "project": "bathroom renovation planning blueprints",
+      "repeat": "landlord property building exterior",
+      "preventative": "plumber inspection checklist home"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#contractorlife",
+        "#localcontractor"
+      ],
+      "industry": [
+        "#plumber",
+        "#plumbing"
+      ]
+    }
+  },
+  {
+    "id": "electrician",
+    "name": "Electrician",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "project",
+      "corporate",
+      "preventative"
+    ],
+    "specificLines": {
+      "urgent": "Power outage, no idea why",
+      "price": "Shopping cheapest outlet install",
+      "project": "Full home rewire renovation",
+      "corporate": "Property manager, multiple sites",
+      "preventative": "Safety inspection before selling"
+    },
+    "brollIndustryQuery": "electrician wiring home panel",
+    "brollBuyerQueries": {
+      "urgent": "power outage dark home breaker",
+      "price": "person phone comparing quotes",
+      "project": "home renovation electrical wiring",
+      "corporate": "property manager office building",
+      "preventative": "home inspection checklist safety"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#contractorlife",
+        "#localcontractor"
+      ],
+      "industry": [
+        "#electrician",
+        "#electrical"
+      ]
+    }
+  },
+  {
+    "id": "hvac",
+    "name": "HVAC",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "project",
+      "repeat",
+      "preventative"
+    ],
+    "specificLines": {
+      "urgent": "AC dead in August",
+      "price": "Comparing 3 service quotes",
+      "project": "New system install",
+      "repeat": "Service contract customer",
+      "preventative": "Pre-season tune-up"
+    },
+    "brollIndustryQuery": "HVAC technician air conditioning unit",
+    "brollBuyerQueries": {
+      "urgent": "person hot sweating summer no AC",
+      "price": "person phone quotes comparing",
+      "project": "HVAC installation new system",
+      "repeat": "technician service visit home",
+      "preventative": "HVAC maintenance inspection seasonal"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#contractorlife",
+        "#localcontractor"
+      ],
+      "industry": [
+        "#hvac",
+        "#airconditioning"
+      ]
+    }
+  },
+  {
+    "id": "realtor",
+    "name": "Realtor",
+    "category": "Real estate",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "lifestyle",
+      "investor",
+      "firsttime"
+    ],
+    "specificLines": {
+      "urgent": "Job relocation, needs home in 3 weeks",
+      "price": "Hunting below-market deals",
+      "lifestyle": "Dream home in specific neighbourhood",
+      "investor": "Looking for cap rate and equity",
+      "firsttime": "Has no idea how any of this works"
+    },
+    "brollIndustryQuery": "real estate house for sale agent",
+    "brollBuyerQueries": {
+      "urgent": "person packing boxes moving fast",
+      "price": "person reviewing house listings prices online",
+      "lifestyle": "couple walking through beautiful home",
+      "investor": "person reviewing investment property documents",
+      "firsttime": "young couple nervous signing documents"
+    },
+    "hashtags": {
+      "category": [
+        "#realestate",
+        "#realestateagent",
+        "#propertymarket"
+      ],
+      "industry": [
+        "#realtor",
+        "#realtorlife"
+      ]
+    }
+  },
+  {
+    "id": "dentist",
+    "name": "Dentist",
+    "category": "Health & wellness",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "lifestyle",
+      "repeat",
+      "preventative"
+    ],
+    "specificLines": {
+      "urgent": "Tooth pain, can't sleep",
+      "price": "No insurance, watching every dollar",
+      "lifestyle": "Wants straight white teeth for confidence",
+      "repeat": "Twice-a-year loyal patient",
+      "preventative": "Hasn't gone in 3 years, scared of what they'll find"
+    },
+    "brollIndustryQuery": "dentist dental clinic patient",
+    "brollBuyerQueries": {
+      "urgent": "person holding jaw toothache pain",
+      "price": "person reviewing dental bill invoice",
+      "lifestyle": "person smiling confident white teeth",
+      "repeat": "dental checkup cleaning routine",
+      "preventative": "person nervous waiting dental office"
+    },
+    "hashtags": {
+      "category": [
+        "#healthandwellness",
+        "#dentalhealth",
+        "#oralhealth"
+      ],
+      "industry": [
+        "#dentist",
+        "#dentistry"
+      ]
+    }
+  },
+  {
+    "id": "personal-trainer",
+    "name": "Personal trainer",
+    "category": "Fitness",
+    "defaultBuyers": [
+      "urgent",
+      "lifestyle",
+      "price",
+      "repeat",
+      "investor"
+    ],
+    "specificLines": {
+      "urgent": "Wedding in 8 weeks",
+      "lifestyle": "Wants to become an athlete",
+      "price": "Comparing PT rates",
+      "repeat": "3x weekly loyal client",
+      "investor": "Investing in long-term health, not just looks"
+    },
+    "brollIndustryQuery": "personal trainer gym workout coaching",
+    "brollBuyerQueries": {
+      "urgent": "woman trying on wedding dress mirror",
+      "lifestyle": "athlete training intense workout",
+      "price": "person on phone gym prices",
+      "repeat": "trainer client regular session gym",
+      "investor": "person healthy lifestyle long-term fitness"
+    },
+    "hashtags": {
+      "category": [
+        "#fitness",
+        "#fitnesscoach",
+        "#fitnessmotivation"
+      ],
+      "industry": [
+        "#personaltrainer",
+        "#personaltraining"
+      ]
+    }
+  },
+  {
+    "id": "med-spa",
+    "name": "Med spa",
+    "category": "Beauty",
+    "defaultBuyers": [
+      "urgent",
+      "luxury",
+      "lifestyle",
+      "repeat",
+      "firsttime"
+    ],
+    "specificLines": {
+      "urgent": "Event in 2 weeks, needs to look great",
+      "luxury": "Wants the premium package",
+      "lifestyle": "Maintenance as identity",
+      "repeat": "Regular botox/filler client",
+      "firsttime": "Curious but scared of overdoing it"
+    },
+    "brollIndustryQuery": "med spa beauty treatment aesthetics",
+    "brollBuyerQueries": {
+      "urgent": "woman getting ready event dress mirror",
+      "luxury": "upscale spa treatment premium setting",
+      "lifestyle": "confident woman skincare self care routine",
+      "repeat": "spa client returning appointment",
+      "firsttime": "woman nervous consultation aesthetics"
+    },
+    "hashtags": {
+      "category": [
+        "#beauty",
+        "#aesthetics",
+        "#selfcare"
+      ],
+      "industry": [
+        "#medspa",
+        "#medaesthetics"
+      ]
+    }
+  },
+  {
+    "id": "lawyer",
+    "name": "Lawyer",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "corporate",
+      "repeat",
+      "preventative"
+    ],
+    "specificLines": {
+      "urgent": "Just got served papers",
+      "price": "Needs legal advice, watching costs",
+      "corporate": "Ongoing business legal needs",
+      "repeat": "Established client relationship",
+      "preventative": "Wants contracts reviewed before trouble"
+    },
+    "brollIndustryQuery": "lawyer attorney office legal documents",
+    "brollBuyerQueries": {
+      "urgent": "person stressed reading legal document letter",
+      "price": "person reviewing legal bill invoice",
+      "corporate": "business meeting legal contract signing",
+      "repeat": "attorney client meeting office",
+      "preventative": "person reviewing contract carefully office"
+    },
+    "hashtags": {
+      "category": [
+        "#legaladvice",
+        "#legalservices",
+        "#businesslaw"
+      ],
+      "industry": [
+        "#lawyer",
+        "#attorney"
+      ]
+    }
+  },
+  {
+    "id": "photographer",
+    "name": "Photographer",
+    "category": "Creative",
+    "defaultBuyers": [
+      "project",
+      "urgent",
+      "lifestyle",
+      "repeat",
+      "investor"
+    ],
+    "specificLines": {
+      "project": "Wedding, planned a year out",
+      "urgent": "Headshots needed by end of week",
+      "lifestyle": "Wants brand photography for personal brand",
+      "repeat": "Annual family photos tradition",
+      "investor": "Commercial photography for business ROI"
+    },
+    "brollIndustryQuery": "photographer camera shoot studio",
+    "brollBuyerQueries": {
+      "project": "bride groom wedding couple outdoor",
+      "urgent": "person professional headshot suit",
+      "lifestyle": "personal brand photography entrepreneur",
+      "repeat": "family photo outdoor annual tradition",
+      "investor": "commercial product photography studio"
+    },
+    "hashtags": {
+      "category": [
+        "#creative",
+        "#photography",
+        "#visualstorytelling"
+      ],
+      "industry": [
+        "#photographer",
+        "#photographylife"
+      ]
+    }
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "category": "Food & hospitality",
+    "defaultBuyers": [
+      "lifestyle",
+      "repeat",
+      "gift",
+      "firsttime",
+      "corporate"
+    ],
+    "specificLines": {
+      "lifestyle": "Dining is part of their identity",
+      "repeat": "Comes every Friday night",
+      "gift": "Gift card or special occasion booking",
+      "firsttime": "Discovered on social media",
+      "corporate": "Team lunch or client dinner"
+    },
+    "brollIndustryQuery": "restaurant dining food table",
+    "brollBuyerQueries": {
+      "lifestyle": "food enthusiast restaurant fine dining",
+      "repeat": "couple regular restaurant familiar waiter",
+      "gift": "birthday dinner celebration restaurant",
+      "firsttime": "person phone restaurant social media",
+      "corporate": "business lunch team restaurant"
+    },
+    "hashtags": {
+      "category": [
+        "#foodandhospitality",
+        "#restaurantlife",
+        "#foodie"
+      ],
+      "industry": [
+        "#restaurant",
+        "#restaurantowner"
+      ]
+    }
+  },
+  {
+    "id": "marketing-agency",
+    "name": "Marketing agency",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "urgent",
+      "corporate",
+      "firsttime",
+      "repeat",
+      "skeptic"
+    ],
+    "specificLines": {
+      "urgent": "Ads not working, burning cash",
+      "corporate": "Scaling brand, needs full-service team",
+      "firsttime": "Never worked with an agency",
+      "repeat": "Long-term retained client",
+      "skeptic": "Burned by an agency before"
+    },
+    "brollIndustryQuery": "marketing agency team digital advertising",
+    "brollBuyerQueries": {
+      "urgent": "person stressed looking at laptop ads dashboard",
+      "corporate": "marketing team office meeting strategy",
+      "firsttime": "business owner confused marketing",
+      "repeat": "client agency long-term meeting",
+      "skeptic": "person skeptical meeting arms crossed"
+    },
+    "hashtags": {
+      "category": [
+        "#marketing",
+        "#digitalmarketing",
+        "#marketingagency"
+      ],
+      "industry": [
+        "#marketingagency",
+        "#growthhacking"
+      ]
+    }
+  },
+  {
+    "id": "auto-mechanic",
+    "name": "Auto mechanic",
+    "category": "Automotive",
+    "defaultBuyers": [
+      "urgent",
+      "price",
+      "repeat",
+      "skeptic",
+      "preventative"
+    ],
+    "specificLines": {
+      "urgent": "Warning light on, driving to work tomorrow",
+      "price": "Comparing repair quotes",
+      "repeat": "Always comes here, total trust",
+      "skeptic": "Worried about being upsold",
+      "preventative": "Seasonal check before road trip"
+    },
+    "brollIndustryQuery": "auto mechanic car repair garage",
+    "brollBuyerQueries": {
+      "urgent": "dashboard warning light car stressed driver",
+      "price": "person phone comparing car repair quotes",
+      "repeat": "mechanic handshake loyal customer",
+      "skeptic": "person skeptical mechanic explanation",
+      "preventative": "car oil change service inspection"
+    },
+    "hashtags": {
+      "category": [
+        "#automotive",
+        "#carcare",
+        "#autorepair"
+      ],
+      "industry": [
+        "#mechanic",
+        "#automechanic"
+      ]
+    }
+  },
+  {
+    "id": "business-coach",
+    "name": "Business coach",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "urgent",
+      "firsttime",
+      "lifestyle",
+      "skeptic",
+      "investor"
+    ],
+    "specificLines": {
+      "urgent": "Business is struggling, needs help now",
+      "firsttime": "Just quit job, starting a business",
+      "lifestyle": "Wants to build something aligned to their values",
+      "skeptic": "Tried coaching before, wasn't impressed",
+      "investor": "Treating coaching as ROI investment"
+    },
+    "brollIndustryQuery": "business coach entrepreneur meeting strategy",
+    "brollBuyerQueries": {
+      "urgent": "stressed entrepreneur laptop struggling",
+      "firsttime": "person quitting job excited nervous",
+      "lifestyle": "entrepreneur values-aligned business",
+      "skeptic": "skeptical person coaching session",
+      "investor": "entrepreneur reviewing ROI metrics growth"
+    },
+    "hashtags": {
+      "category": [
+        "#businesscoaching",
+        "#entrepreneurship",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#businesscoach",
+        "#coachingbusiness"
+      ]
+    }
+  },
+  {
+    "id": "saas-founder",
+    "name": "SaaS founder",
+    "category": "Tech & digital",
+    "defaultBuyers": [
+      "firsttime",
+      "price",
+      "investor",
+      "urgent",
+      "corporate"
+    ],
+    "specificLines": {
+      "firsttime": "First software purchase ever",
+      "price": "Comparing freemium to paid tiers",
+      "investor": "Scaling fast, needs enterprise features",
+      "urgent": "Current tool just broke",
+      "corporate": "Team needs a shared solution"
+    },
+    "brollIndustryQuery": "software startup team laptop technology",
+    "brollBuyerQueries": {
+      "firsttime": "person confused software onboarding",
+      "price": "person comparing pricing pages laptop",
+      "investor": "startup team scaling growth dashboard",
+      "urgent": "person stressed broken software error screen",
+      "corporate": "team collaboration software office"
+    },
+    "hashtags": {
+      "category": [
+        "#saas",
+        "#techstartup",
+        "#software"
+      ],
+      "industry": [
+        "#saasfounders",
+        "#startuplife"
+      ]
+    }
+  },
+  {
+    "id": "interior-designer",
+    "name": "Interior designer",
+    "category": "Lifestyle",
+    "defaultBuyers": [
+      "project",
+      "lifestyle",
+      "luxury",
+      "investor",
+      "firsttime"
+    ],
+    "specificLines": {
+      "project": "Full home renovation design",
+      "lifestyle": "Home should reflect who they are",
+      "luxury": "Money is no object, just make it perfect",
+      "investor": "Staging rental or flip property",
+      "firsttime": "Has no idea where to start with style"
+    },
+    "brollIndustryQuery": "interior design home decor beautiful room",
+    "brollBuyerQueries": {
+      "project": "home renovation before after transformation",
+      "lifestyle": "person in beautifully designed home",
+      "luxury": "luxury interior design upscale home",
+      "investor": "staged property real estate investment",
+      "firsttime": "person overwhelmed decorating choices"
+    },
+    "hashtags": {
+      "category": [
+        "#interiordesign",
+        "#homedecor",
+        "#homedesign"
+      ],
+      "industry": [
+        "#interiordesigner",
+        "#interiordesigning"
+      ]
+    }
+  },
+  {
+    "id": "roofer",
+    "name": "Roofer",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "skeptic",
+      "project",
+      "preventative",
+      "investor"
+    ],
+    "specificLines": {
+      "urgent": "Water pouring in after storm, need someone today",
+      "skeptic": "Last roofer ghosted me after taking my deposit",
+      "project": "Planning full roof replacement before winter hits",
+      "preventative": "No leaks yet but roof is fifteen years old",
+      "investor": "Need the roof done fast to list this rental"
+    },
+    "brollIndustryQuery": "roofer installing shingles roof",
+    "brollBuyerQueries": {
+      "urgent": "homeowner stressed water damage ceiling",
+      "skeptic": "frustrated homeowner reading contractor reviews",
+      "project": "couple reviewing home renovation plans",
+      "preventative": "homeowner inspecting aging roof gutters",
+      "investor": "landlord inspecting rental property exterior"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#homeimprovement",
+        "#homemaintenance"
+      ],
+      "industry": [
+        "#roofer",
+        "#roofing"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T18:59:44.347Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "landscaper",
+    "name": "Landscaper",
+    "category": "Home services",
+    "defaultBuyers": [
+      "project",
+      "repeat",
+      "diy",
+      "lifestyle",
+      "investor"
+    ],
+    "specificLines": {
+      "project": "Planning a full backyard overhaul before summer entertaining season starts",
+      "repeat": "My lawn guy knows exactly how I like things, every time",
+      "diy": "Killed my grass twice, finally calling someone who knows what they're doing",
+      "lifestyle": "My curb appeal has to reflect the home I've worked hard for",
+      "investor": "Landscaping ROI on this rental property needs to beat the cost"
+    },
+    "brollIndustryQuery": "landscaper mowing lawn backyard",
+    "brollBuyerQueries": {
+      "project": "homeowner reviewing backyard renovation plans outside",
+      "repeat": "landscaper and homeowner friendly handshake driveway",
+      "diy": "frustrated man looking at dead patchy lawn",
+      "lifestyle": "proud homeowner admiring beautiful front yard curb",
+      "investor": "landlord walking rental property checking exterior"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#homeimprovement",
+        "#outdoorliving"
+      ],
+      "industry": [
+        "#landscaping",
+        "#landscaper"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.879Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "pest-control",
+    "name": "Pest control",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "diy",
+      "preventative",
+      "repeat",
+      "skeptic"
+    ],
+    "specificLines": {
+      "urgent": "Found mice in my kitchen, need someone today",
+      "diy": "Tried traps for weeks, infestation is getting worse",
+      "preventative": "Moving into new home, want it checked before problems start",
+      "repeat": "Same company every quarter, they know my property well",
+      "skeptic": "Last exterminator charged me twice and nothing died"
+    },
+    "brollIndustryQuery": "pest control technician spraying home",
+    "brollBuyerQueries": {
+      "urgent": "person stressed discovering pests kitchen",
+      "diy": "frustrated person setting mouse traps home",
+      "preventative": "homeowner inspecting clean organized basement",
+      "repeat": "technician greeting familiar homeowner door",
+      "skeptic": "skeptical homeowner arms crossed reading contract"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#homemaintenance",
+        "#homeimprovement"
+      ],
+      "industry": [
+        "#pestcontrol",
+        "#exterminator"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.224Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "cleaner",
+    "name": "Cleaner",
+    "category": "Home services",
+    "defaultBuyers": [
+      "repeat",
+      "firsttime",
+      "diy",
+      "gift",
+      "lifestyle"
+    ],
+    "specificLines": {
+      "repeat": "My cleaner knows my home better than I do",
+      "firsttime": "Not sure what to expect from a professional clean",
+      "diy": "Tried keeping up myself but it just got away from me",
+      "gift": "Buying mum a clean as her birthday treat this year",
+      "lifestyle": "A spotless home is just part of how I live"
+    },
+    "brollIndustryQuery": "cleaner tidying home interior",
+    "brollBuyerQueries": {
+      "repeat": "woman greeting familiar cleaner at door",
+      "firsttime": "person reading cleaning service reviews online",
+      "diy": "exhausted person looking at messy house",
+      "gift": "woman wrapping gift card smiling",
+      "lifestyle": "bright clean modern living room aesthetic"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#cleaningtips",
+        "#housekeeping"
+      ],
+      "industry": [
+        "#cleaningservice",
+        "#professionalcleaner"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.240Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "handyman",
+    "name": "Handyman",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "diy",
+      "repeat",
+      "project",
+      "skeptic"
+    ],
+    "specificLines": {
+      "urgent": "Pipe burst, ceiling leaking, need someone here today",
+      "diy": "Tried fixing the deck myself, made it worse somehow",
+      "repeat": "Same guy every time, he just knows how my house works",
+      "project": "Renovating the basement, need a reliable handyman for months",
+      "skeptic": "Last guy ghosted mid-job and kept my deposit"
+    },
+    "brollIndustryQuery": "handyman fixing home repairs",
+    "brollBuyerQueries": {
+      "urgent": "stressed homeowner calling phone urgently",
+      "diy": "frustrated person looking at broken fixture",
+      "repeat": "homeowner greeting familiar tradesperson at door",
+      "project": "couple reviewing home renovation plans together",
+      "skeptic": "homeowner arms crossed watching contractor work"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#homeimprovement",
+        "#homerepair"
+      ],
+      "industry": [
+        "#handyman",
+        "#handymanservices"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.787Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "pool-service",
+    "name": "Pool service",
+    "category": "Home services",
+    "defaultBuyers": [
+      "urgent",
+      "repeat",
+      "diy",
+      "preventative",
+      "lifestyle"
+    ],
+    "specificLines": {
+      "urgent": "My pool turned green overnight before the party tomorrow",
+      "repeat": "I need a reliable tech who shows up every single week",
+      "diy": "I kept adding chemicals but the water never cleared up",
+      "preventative": "Summer's coming and I want the pool ready before we need it",
+      "lifestyle": "My pool should look magazine-worthy every time guests arrive"
+    },
+    "brollIndustryQuery": "pool technician cleaning swimming pool",
+    "brollBuyerQueries": {
+      "urgent": "stressed homeowner looking at green pool",
+      "repeat": "pool service technician arriving at home",
+      "diy": "person testing pool water with kit",
+      "preventative": "family preparing backyard pool summer",
+      "lifestyle": "luxury backyard pool party entertaining"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#outdoorliving",
+        "#backyardlife"
+      ],
+      "industry": [
+        "#poolservice",
+        "#poolcare"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.452Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "painter",
+    "name": "Painter",
+    "category": "Home services",
+    "defaultBuyers": [
+      "project",
+      "diy",
+      "lifestyle",
+      "skeptic",
+      "referral"
+    ],
+    "specificLines": {
+      "project": "Repainting entire home before listing it for sale",
+      "diy": "Started painting myself, now it looks terrible and streaky",
+      "lifestyle": "Want fresh colors that finally match my vision and aesthetic",
+      "skeptic": "Last painter left drips everywhere and ghosted my calls",
+      "referral": "My neighbor just used you and their house looks amazing"
+    },
+    "brollIndustryQuery": "painter rolling walls interior",
+    "brollBuyerQueries": {
+      "project": "couple reviewing home renovation plans",
+      "diy": "person frustrated with messy paint job",
+      "lifestyle": "homeowner choosing paint color swatches",
+      "skeptic": "woman on phone looking concerned at wall",
+      "referral": "neighbors talking outside freshly painted house"
+    },
+    "hashtags": {
+      "category": [
+        "#homeservices",
+        "#homeimprovement",
+        "#homerenovation"
+      ],
+      "industry": [
+        "#painter",
+        "#paintingcontractor"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.373Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "mortgage-broker",
+    "name": "Mortgage broker",
+    "category": "Real estate",
+    "defaultBuyers": [
+      "firsttime",
+      "investor",
+      "referral",
+      "skeptic",
+      "repeat"
+    ],
+    "specificLines": {
+      "firsttime": "Never bought a home before, totally overwhelmed by rates",
+      "investor": "Shopping for my third rental, need best financing terms",
+      "referral": "My friend said you got her a great deal last year",
+      "skeptic": "Last broker hid fees and my rate was terrible",
+      "repeat": "Refinancing again, want someone who already knows my file"
+    },
+    "brollIndustryQuery": "mortgage broker client meeting",
+    "brollBuyerQueries": {
+      "firsttime": "young couple signing home loan",
+      "investor": "landlord reviewing rental property documents",
+      "referral": "friends recommending service over coffee",
+      "skeptic": "man reading contract fine print carefully",
+      "repeat": "couple returning to sign refinance paperwork"
+    },
+    "hashtags": {
+      "category": [
+        "#realestate",
+        "#homeownership",
+        "#propertyfinance"
+      ],
+      "industry": [
+        "#mortgagebroker",
+        "#mortgageadvice"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.777Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "property-manager",
+    "name": "Property manager",
+    "category": "Real estate",
+    "defaultBuyers": [
+      "investor",
+      "repeat",
+      "skeptic",
+      "corporate",
+      "urgent"
+    ],
+    "specificLines": {
+      "investor": "My vacancy rate is killing my returns, I need help now",
+      "repeat": "I need one reliable manager across all my rental units",
+      "skeptic": "My last property manager never answered calls or fixed anything",
+      "corporate": "We manage a portfolio and need proper reporting and invoicing",
+      "urgent": "Tenant just abandoned the unit and I have no idea what to do"
+    },
+    "brollIndustryQuery": "property manager showing rental",
+    "brollBuyerQueries": {
+      "investor": "landlord reviewing rental income spreadsheet",
+      "repeat": "property owner shaking hands with manager",
+      "skeptic": "frustrated homeowner reading bad contract",
+      "corporate": "business team reviewing real estate portfolio documents",
+      "urgent": "stressed landlord on phone outside property"
+    },
+    "hashtags": {
+      "category": [
+        "#realestate",
+        "#propertymanagement",
+        "#rentalproperties"
+      ],
+      "industry": [
+        "#propertymanager",
+        "#landlordlife"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.479Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "chiropractor",
+    "name": "Chiropractor",
+    "category": "Health & wellness",
+    "defaultBuyers": [
+      "urgent",
+      "preventative",
+      "diy",
+      "referral",
+      "comeback"
+    ],
+    "specificLines": {
+      "urgent": "Threw my back out, can barely walk, need help today",
+      "preventative": "Sitting at a desk all day, want to stay ahead of pain",
+      "diy": "Tried stretching and YouTube exercises, nothing is working",
+      "referral": "My coworker swears by her chiropractor, ready to book",
+      "comeback": "Used to get adjusted regularly, spine has been a mess since"
+    },
+    "brollIndustryQuery": "chiropractor adjusting patient spine",
+    "brollBuyerQueries": {
+      "urgent": "person holding lower back in pain",
+      "preventative": "office worker stretching at desk",
+      "diy": "person doing back stretches at home",
+      "referral": "friends talking recommending something enthusiastically",
+      "comeback": "person returning to wellness clinic reception"
+    },
+    "hashtags": {
+      "category": [
+        "#healthandwellness",
+        "#wellness",
+        "#painrelief"
+      ],
+      "industry": [
+        "#chiropractor",
+        "#chiropractic"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:03:40.917Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "physiotherapist",
+    "name": "Physiotherapist",
+    "category": "Health & wellness",
+    "defaultBuyers": [
+      "urgent",
+      "diy",
+      "preventative",
+      "referral",
+      "comeback"
+    ],
+    "specificLines": {
+      "urgent": "Threw out my back, can't move, need help today",
+      "diy": "Watched YouTube stretches, made my injury way worse",
+      "preventative": "No pain yet, but I sit at a desk all day",
+      "referral": "My colleague swears by their physio, booking now",
+      "comeback": "Old knee injury flaring up again after months away"
+    },
+    "brollIndustryQuery": "physiotherapist treating patient clinic",
+    "brollBuyerQueries": {
+      "urgent": "person holding back in pain",
+      "diy": "person doing stretches home injury",
+      "preventative": "office worker sitting desk posture",
+      "referral": "two colleagues talking office recommendation",
+      "comeback": "person rubbing knee pain returning"
+    },
+    "hashtags": {
+      "category": [
+        "#healthandwellness",
+        "#wellness",
+        "#healthylifestyle"
+      ],
+      "industry": [
+        "#physiotherapy",
+        "#physiotherapist"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.615Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "optometrist",
+    "name": "Optometrist",
+    "category": "Health & wellness",
+    "defaultBuyers": [
+      "urgent",
+      "firsttime",
+      "repeat",
+      "preventative",
+      "comeback"
+    ],
+    "specificLines": {
+      "urgent": "My vision blurred suddenly and I need answers today",
+      "firsttime": "I've never had an eye exam and don't know what to expect",
+      "repeat": "I trust my optometrist and book every year without question",
+      "preventative": "My eyes feel fine but I want to catch problems early",
+      "comeback": "I skipped my eye exam for three years and I'm overdue"
+    },
+    "brollIndustryQuery": "optometrist eye exam clinic",
+    "brollBuyerQueries": {
+      "urgent": "person squinting struggling to see screen",
+      "firsttime": "nervous adult sitting in medical waiting room",
+      "repeat": "patient shaking hands with familiar doctor",
+      "preventative": "healthy person reading eye chart confidently",
+      "comeback": "adult scheduling appointment on smartphone"
+    },
+    "hashtags": {
+      "category": [
+        "#healthandwellness",
+        "#eyecare",
+        "#preventativehealth"
+      ],
+      "industry": [
+        "#optometrist",
+        "#eyeexam"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:39.545Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "therapist",
+    "name": "Therapist",
+    "category": "Health & wellness",
+    "defaultBuyers": [
+      "urgent",
+      "firsttime",
+      "skeptic",
+      "comeback",
+      "referral"
+    ],
+    "specificLines": {
+      "urgent": "Anxiety is crippling me and I need help now",
+      "firsttime": "Never seen a therapist before, don't know where to start",
+      "skeptic": "Tried therapy twice before and felt nothing changed",
+      "comeback": "Life got hard again and I need to come back",
+      "referral": "My friend said you changed their life, calling you first"
+    },
+    "brollIndustryQuery": "therapist counseling session office",
+    "brollBuyerQueries": {
+      "urgent": "person anxious overwhelmed sitting alone stressed",
+      "firsttime": "nervous person researching therapy on laptop",
+      "skeptic": "doubtful person reading online reviews carefully",
+      "comeback": "person returning to calm therapy office",
+      "referral": "friend recommending therapist over coffee conversation"
+    },
+    "hashtags": {
+      "category": [
+        "#healthandwellness",
+        "#mentalhealth",
+        "#selfcare"
+      ],
+      "industry": [
+        "#therapist",
+        "#therapy"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.799Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "nutritionist",
+    "name": "Nutritionist",
+    "category": "Health & wellness",
+    "defaultBuyers": [
+      "firsttime",
+      "lifestyle",
+      "diy",
+      "skeptic",
+      "preventative"
+    ],
+    "specificLines": {
+      "firsttime": "Never seen a nutritionist before, totally lost on food",
+      "lifestyle": "I want to feel like my best self through food",
+      "diy": "My meal plans from YouTube stopped working for me",
+      "skeptic": "Last nutritionist gave generic advice, I saw zero results",
+      "preventative": "No health crisis yet, but I want to stay ahead"
+    },
+    "brollIndustryQuery": "nutritionist consulting client food",
+    "brollBuyerQueries": {
+      "firsttime": "confused person reading nutrition label grocery store",
+      "lifestyle": "woman preparing healthy colorful meal kitchen",
+      "diy": "person frustrated looking at diet plan phone",
+      "skeptic": "person arms crossed sitting across professional desk",
+      "preventative": "active healthy person morning routine exercise"
+    },
+    "hashtags": {
+      "category": [
+        "#healthandwellness",
+        "#wellnessjourney",
+        "#healthylifestyle"
+      ],
+      "industry": [
+        "#nutritionist",
+        "#nutritioncoach"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.015Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "gym-owner",
+    "name": "Gym owner",
+    "category": "Fitness",
+    "defaultBuyers": [
+      "investor",
+      "lifestyle",
+      "skeptic",
+      "firsttime",
+      "comeback"
+    ],
+    "specificLines": {
+      "investor": "Tracking revenue per member, equipment ROI, and monthly churn",
+      "lifestyle": "My gym reflects my brand, not just a place to sweat",
+      "skeptic": "Last software promised everything, delivered nothing but headaches",
+      "firsttime": "Opening my first gym and have no idea where to start",
+      "comeback": "Closed during COVID, now rebuilding membership from near zero"
+    },
+    "brollIndustryQuery": "gym owner managing fitness facility",
+    "brollBuyerQueries": {
+      "investor": "business owner reviewing financial dashboard reports",
+      "lifestyle": "fitness entrepreneur branding premium gym interior",
+      "skeptic": "frustrated business owner reviewing contract at desk",
+      "firsttime": "nervous entrepreneur touring empty gym space",
+      "comeback": "gym reopening after closure welcoming members back"
+    },
+    "hashtags": {
+      "category": [
+        "#fitnessbusiness",
+        "#smallbusiness",
+        "#entrepreneurlife"
+      ],
+      "industry": [
+        "#gymowner",
+        "#fitnessstudio"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.009Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "yoga-studio",
+    "name": "Yoga studio",
+    "category": "Fitness",
+    "defaultBuyers": [
+      "lifestyle",
+      "firsttime",
+      "comeback",
+      "gift",
+      "corporate"
+    ],
+    "specificLines": {
+      "lifestyle": "Yoga is my identity, I want a studio that gets me",
+      "firsttime": "Never tried yoga before, not sure where to start",
+      "comeback": "Used to practice daily, life got busy, ready to return",
+      "gift": "Buying a class pass for my stressed-out friend",
+      "corporate": "Setting up weekly yoga sessions for our office team"
+    },
+    "brollIndustryQuery": "yoga studio class instructor",
+    "brollBuyerQueries": {
+      "lifestyle": "woman meditating peaceful yoga mat",
+      "firsttime": "nervous beginner stretching yoga class",
+      "comeback": "person returning gym workout motivation",
+      "gift": "woman giving gift card smiling friend",
+      "corporate": "office employees group wellness session"
+    },
+    "hashtags": {
+      "category": [
+        "#fitness",
+        "#wellness",
+        "#healthylifestyle"
+      ],
+      "industry": [
+        "#yogastudio",
+        "#yoga"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.568Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "online-coach",
+    "name": "Online coach",
+    "category": "Fitness",
+    "defaultBuyers": [
+      "lifestyle",
+      "diy",
+      "comeback",
+      "firsttime",
+      "skeptic"
+    ],
+    "specificLines": {
+      "lifestyle": "I want abs but also to become my best self",
+      "diy": "YouTube workouts stopped working, I need real accountability",
+      "comeback": "I was fit at 30, now I need to get back on track",
+      "firsttime": "I've never had a coach, no idea where to start",
+      "skeptic": "Tried two coaches before, both took my money and vanished"
+    },
+    "brollIndustryQuery": "online fitness coaching video call",
+    "brollBuyerQueries": {
+      "lifestyle": "confident woman athlete morning workout selfie",
+      "diy": "man frustrated watching workout video laptop",
+      "comeback": "middle aged person tying running shoes outside",
+      "firsttime": "person nervously starting first gym session",
+      "skeptic": "woman arms crossed skeptical looking at phone"
+    },
+    "hashtags": {
+      "category": [
+        "#fitnessbusiness",
+        "#onlinecoaching",
+        "#healthandwellness"
+      ],
+      "industry": [
+        "#fitnesscoachingtips",
+        "#onlinefitnesstrainer"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.641Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "hair-stylist",
+    "name": "Hair stylist",
+    "category": "Beauty",
+    "defaultBuyers": [
+      "lifestyle",
+      "luxury",
+      "firsttime",
+      "comeback",
+      "gift"
+    ],
+    "specificLines": {
+      "lifestyle": "My hair is part of my identity, I want a stylist who gets me",
+      "luxury": "I want the best products, premium experience, and zero compromises",
+      "firsttime": "I've never been to a professional stylist and don't know what to ask for",
+      "comeback": "I haven't been to a salon in months and need a fresh start",
+      "gift": "I want to treat my mom to a full salon experience for her birthday"
+    },
+    "brollIndustryQuery": "hair stylist salon work",
+    "brollBuyerQueries": {
+      "lifestyle": "confident woman leaving hair salon",
+      "luxury": "upscale salon pamper experience",
+      "firsttime": "nervous woman sitting in salon chair",
+      "comeback": "woman getting hair makeover transformation",
+      "gift": "woman receiving salon gift card"
+    },
+    "hashtags": {
+      "category": [
+        "#beautyservices",
+        "#selfcare",
+        "#beautyindustry"
+      ],
+      "industry": [
+        "#hairstylist",
+        "#hairsalon"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.942Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "barber",
+    "name": "Barber",
+    "category": "Beauty",
+    "defaultBuyers": [
+      "lifestyle",
+      "repeat",
+      "firsttime",
+      "comeback",
+      "gift"
+    ],
+    "specificLines": {
+      "lifestyle": "I want a barber who matches my personal brand and vibe",
+      "repeat": "I need my guy every two weeks, no exceptions, no excuses",
+      "firsttime": "Never had a proper fade before, not sure what to ask for",
+      "comeback": "Haven't had a real cut in months, time to get back on track",
+      "gift": "Buying my dad or boyfriend a fresh cut for a special occasion"
+    },
+    "brollIndustryQuery": "barber cutting hair shop",
+    "brollBuyerQueries": {
+      "lifestyle": "stylish man mirror selfie grooming",
+      "repeat": "man sitting barber chair relaxed",
+      "firsttime": "young man nervous barber consultation",
+      "comeback": "man looking disheveled before haircut",
+      "gift": "person holding gift card smiling"
+    },
+    "hashtags": {
+      "category": [
+        "#beautyservices",
+        "#selfcare",
+        "#groominglife"
+      ],
+      "industry": [
+        "#barbershop",
+        "#barber"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.387Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "nail-tech",
+    "name": "Nail tech",
+    "category": "Beauty",
+    "defaultBuyers": [
+      "lifestyle",
+      "luxury",
+      "gift",
+      "comeback",
+      "firsttime"
+    ],
+    "specificLines": {
+      "lifestyle": "My nails reflect my brand, they always need to look flawless",
+      "luxury": "I want the best gel, crystals, and nail art money can buy",
+      "gift": "Getting my best friend a full nail set for her birthday",
+      "comeback": "I let my nails go for months, need a full refresh now",
+      "firsttime": "Never had a professional set done, nervous but excited to try"
+    },
+    "brollIndustryQuery": "nail technician applying gel nails",
+    "brollBuyerQueries": {
+      "lifestyle": "confident woman showing off manicured nails",
+      "luxury": "woman receiving premium spa nail treatment",
+      "gift": "woman gifting beauty voucher to friend",
+      "comeback": "woman looking at chipped bare nails sadly",
+      "firsttime": "nervous woman sitting at nail salon first visit"
+    },
+    "hashtags": {
+      "category": [
+        "#beautyservices",
+        "#selfcare",
+        "#beautytreatment"
+      ],
+      "industry": [
+        "#nailtech",
+        "#nailsalon"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.730Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "lash-artist",
+    "name": "Lash artist",
+    "category": "Beauty",
+    "defaultBuyers": [
+      "lifestyle",
+      "firsttime",
+      "diy",
+      "luxury",
+      "gift"
+    ],
+    "specificLines": {
+      "lifestyle": "My lashes are part of my whole look and brand",
+      "firsttime": "I have no idea what lash style to even ask for",
+      "diy": "I wrecked my natural lashes doing it myself at home",
+      "luxury": "I want the best materials and a premium studio experience",
+      "gift": "I want to treat my friend to a full lash set"
+    },
+    "brollIndustryQuery": "lash artist applying extensions",
+    "brollBuyerQueries": {
+      "lifestyle": "confident woman glam mirror selfie",
+      "firsttime": "woman nervously researching beauty salon phone",
+      "diy": "woman inspecting damaged lashes mirror closeup",
+      "luxury": "woman relaxing upscale beauty studio bed",
+      "gift": "woman handing friend gift card beauty salon"
+    },
+    "hashtags": {
+      "category": [
+        "#beautyservices",
+        "#selfcare",
+        "#beautytreatment"
+      ],
+      "industry": [
+        "#lashart",
+        "#lashextensions"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.518Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "makeup-artist",
+    "name": "Makeup artist",
+    "category": "Beauty",
+    "defaultBuyers": [
+      "urgent",
+      "lifestyle",
+      "firsttime",
+      "gift",
+      "luxury"
+    ],
+    "specificLines": {
+      "urgent": "Wedding is tomorrow and my makeup artist just cancelled",
+      "lifestyle": "My look is part of my brand, I need someone who gets me",
+      "firsttime": "Never hired a makeup artist before, no idea where to start",
+      "gift": "Buying a glam session for my best friend's birthday",
+      "luxury": "Only the best products and techniques for my special day"
+    },
+    "brollIndustryQuery": "makeup artist applying bridal makeup",
+    "brollBuyerQueries": {
+      "urgent": "woman stressed looking at phone wedding",
+      "lifestyle": "confident woman bold makeup mirror selfie",
+      "firsttime": "woman researching beauty services on laptop",
+      "gift": "woman wrapping gift card beauty salon",
+      "luxury": "elegant woman professional makeup studio session"
+    },
+    "hashtags": {
+      "category": [
+        "#beautyservices",
+        "#beauty",
+        "#selfcare"
+      ],
+      "industry": [
+        "#makeupartist",
+        "#mua"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:42.692Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "videographer",
+    "name": "Videographer",
+    "category": "Creative",
+    "defaultBuyers": [
+      "firsttime",
+      "project",
+      "diy",
+      "corporate",
+      "lifestyle"
+    ],
+    "specificLines": {
+      "firsttime": "Planning my first event and have no idea where to start",
+      "project": "Big product launch coming up, need a full video package",
+      "diy": "My shaky iPhone footage just isn't cutting it anymore",
+      "corporate": "We need branded video content with proper invoicing and contracts",
+      "lifestyle": "I want my brand story told beautifully, not just recorded"
+    },
+    "brollIndustryQuery": "videographer filming on location",
+    "brollBuyerQueries": {
+      "firsttime": "nervous person planning event on laptop",
+      "project": "business owner reviewing marketing campaign plan",
+      "diy": "person frustrated filming with smartphone",
+      "corporate": "professional meeting reviewing video content",
+      "lifestyle": "creative entrepreneur building personal brand"
+    },
+    "hashtags": {
+      "category": [
+        "#creativeservices",
+        "#contentcreation",
+        "#visualmarketing"
+      ],
+      "industry": [
+        "#videographer",
+        "#videoproduction"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.232Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "graphic-designer",
+    "name": "Graphic designer",
+    "category": "Creative",
+    "defaultBuyers": [
+      "diy",
+      "firsttime",
+      "project",
+      "skeptic",
+      "lifestyle"
+    ],
+    "specificLines": {
+      "diy": "My Canva logo looks cheap, I need a real designer",
+      "firsttime": "I have no idea what files or formats I even need",
+      "project": "Rebranding my whole business, need someone to lead it",
+      "skeptic": "Last designer ghosted me after taking my deposit",
+      "lifestyle": "My brand needs to look as premium as my service"
+    },
+    "brollIndustryQuery": "graphic designer working studio",
+    "brollBuyerQueries": {
+      "diy": "frustrated person staring at laptop screen",
+      "firsttime": "confused small business owner at desk",
+      "project": "entrepreneur reviewing brand mood board",
+      "skeptic": "business owner reading contract carefully",
+      "lifestyle": "confident woman reviewing polished brand materials"
+    },
+    "hashtags": {
+      "category": [
+        "#creativeservices",
+        "#smallbusinessmarketing",
+        "#brandinganddesign"
+      ],
+      "industry": [
+        "#graphicdesigner",
+        "#logodesign"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.777Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "web-designer",
+    "name": "Web designer",
+    "category": "Creative",
+    "defaultBuyers": [
+      "firsttime",
+      "diy",
+      "skeptic",
+      "investor",
+      "lifestyle"
+    ],
+    "specificLines": {
+      "firsttime": "Never had a website before, no idea where to start",
+      "diy": "My DIY site looks terrible, hurting my credibility",
+      "skeptic": "Last designer ghosted me and kept my deposit",
+      "investor": "Need a site that actually converts visitors into paying clients",
+      "lifestyle": "My brand needs to look as premium as my work"
+    },
+    "brollIndustryQuery": "web designer working laptop",
+    "brollBuyerQueries": {
+      "firsttime": "confused person browsing website on phone",
+      "diy": "frustrated person working on laptop late",
+      "skeptic": "business owner reviewing contract cautiously",
+      "investor": "entrepreneur analyzing website analytics dashboard",
+      "lifestyle": "confident creative professional branding photoshoot"
+    },
+    "hashtags": {
+      "category": [
+        "#creativeservices",
+        "#smallbusiness",
+        "#digitalmarketing"
+      ],
+      "industry": [
+        "#webdesign",
+        "#webdesigner"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:39.729Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "accountant",
+    "name": "Accountant",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "urgent",
+      "diy",
+      "firsttime",
+      "repeat",
+      "skeptic"
+    ],
+    "specificLines": {
+      "urgent": "IRS audit notice arrived, I need help immediately",
+      "diy": "My spreadsheet chaos is costing me real money",
+      "firsttime": "Just launched my business, no idea about taxes",
+      "repeat": "My accountant knows my business inside and out",
+      "skeptic": "Last accountant missed deductions and cost me thousands"
+    },
+    "brollIndustryQuery": "accountant reviewing financial documents",
+    "brollBuyerQueries": {
+      "urgent": "stressed person opening tax notice",
+      "diy": "person frustrated with spreadsheet laptop",
+      "firsttime": "new business owner signing paperwork desk",
+      "repeat": "professional handshake long term meeting",
+      "skeptic": "skeptical business owner reviewing contract carefully"
+    },
+    "hashtags": {
+      "category": [
+        "#professionalservices",
+        "#smallbusiness",
+        "#businessgrowth"
+      ],
+      "industry": [
+        "#accountant",
+        "#accounting"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.557Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "financial-advisor",
+    "name": "Financial advisor",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "preventative",
+      "investor",
+      "diy",
+      "referral",
+      "skeptic"
+    ],
+    "specificLines": {
+      "preventative": "Finally getting serious about retirement before it's too late",
+      "investor": "Need someone to maximize returns on my growing portfolio",
+      "diy": "Managed my own finances until taxes became a nightmare",
+      "referral": "My colleague swears by their advisor so I'm calling",
+      "skeptic": "Lost money with my last advisor, need someone trustworthy"
+    },
+    "brollIndustryQuery": "financial advisor client meeting",
+    "brollBuyerQueries": {
+      "preventative": "person planning future goals desk",
+      "investor": "businessman reviewing investment portfolio charts",
+      "diy": "stressed person doing paperwork taxes",
+      "referral": "friends talking coffee shop recommendation",
+      "skeptic": "person arms crossed serious meeting"
+    },
+    "hashtags": {
+      "category": [
+        "#professionalservices",
+        "#financialplanning",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#financialadvisor",
+        "#wealthmanagement"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:39.952Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "insurance-agent",
+    "name": "Insurance agent",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "firsttime",
+      "preventative",
+      "referral",
+      "skeptic",
+      "corporate"
+    ],
+    "specificLines": {
+      "firsttime": "Just started a business and have no idea what coverage I need",
+      "preventative": "Things are good now but I want to protect what I've built",
+      "referral": "My colleague said you're the agent they trust with everything",
+      "skeptic": "My last insurer denied my claim and I need someone reliable",
+      "corporate": "We need business coverage with proper documentation and invoicing"
+    },
+    "brollIndustryQuery": "insurance agent client meeting",
+    "brollBuyerQueries": {
+      "firsttime": "young entrepreneur signing first business documents",
+      "preventative": "small business owner reviewing financial planning paperwork",
+      "referral": "two business owners shaking hands office",
+      "skeptic": "frustrated person reading insurance documents carefully",
+      "corporate": "corporate team reviewing business contracts boardroom"
+    },
+    "hashtags": {
+      "category": [
+        "#professionalservices",
+        "#smallbusiness",
+        "#financialprotection"
+      ],
+      "industry": [
+        "#insuranceagent",
+        "#businessinsurance"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.261Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "consultant",
+    "name": "Consultant",
+    "category": "Professional services",
+    "defaultBuyers": [
+      "project",
+      "investor",
+      "skeptic",
+      "diy",
+      "corporate"
+    ],
+    "specificLines": {
+      "project": "Scaling my team and need a strategy consultant now",
+      "investor": "I need ROI data before signing any consulting contract",
+      "skeptic": "My last consultant took money and delivered nothing useful",
+      "diy": "I tried building the strategy myself but it fell apart",
+      "corporate": "Our company needs a consultant who handles proper invoicing"
+    },
+    "brollIndustryQuery": "consultant meeting client office",
+    "brollBuyerQueries": {
+      "project": "business owner planning whiteboard strategy",
+      "investor": "entrepreneur reviewing financial growth charts",
+      "skeptic": "business owner arms crossed skeptical meeting",
+      "diy": "frustrated entrepreneur overwhelmed paperwork desk",
+      "corporate": "corporate team professional boardroom discussion"
+    },
+    "hashtags": {
+      "category": [
+        "#professionalservices",
+        "#businessgrowth",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#consultant",
+        "#consulting"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.752Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "coffee-shop",
+    "name": "Coffee shop",
+    "category": "Food & hospitality",
+    "defaultBuyers": [
+      "lifestyle",
+      "firsttime",
+      "repeat",
+      "investor",
+      "referral"
+    ],
+    "specificLines": {
+      "lifestyle": "My coffee shop reflects who I am and my values",
+      "firsttime": "I have no idea where to start opening my first cafe",
+      "repeat": "I need a supplier I can count on every single week",
+      "investor": "I want to know which coffee concepts have the best margins",
+      "referral": "My friend swears by this place so I had to try"
+    },
+    "brollIndustryQuery": "coffee shop barista brewing",
+    "brollBuyerQueries": {
+      "lifestyle": "woman journaling cozy cafe aesthetic",
+      "firsttime": "nervous entrepreneur meeting business advisor",
+      "repeat": "small business owner shaking hands supplier",
+      "investor": "entrepreneur reviewing cafe financial report",
+      "referral": "friends recommending local coffee shop"
+    },
+    "hashtags": {
+      "category": [
+        "#foodandbeverage",
+        "#hospitality",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#coffeeshop",
+        "#cafe"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:39.727Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "caterer",
+    "name": "Caterer",
+    "category": "Food & hospitality",
+    "defaultBuyers": [
+      "project",
+      "corporate",
+      "firsttime",
+      "diy",
+      "urgent"
+    ],
+    "specificLines": {
+      "project": "Planning my daughter's wedding and need a full catering team",
+      "corporate": "We host quarterly client dinners and need a reliable caterer",
+      "firsttime": "Never hired a caterer before, no idea where to start",
+      "diy": "Tried to cook for 80 guests myself, never again",
+      "urgent": "My caterer just cancelled two days before the event"
+    },
+    "brollIndustryQuery": "catering food preparation event",
+    "brollBuyerQueries": {
+      "project": "couple planning wedding venue meeting",
+      "corporate": "business team planning office event",
+      "firsttime": "person browsing catering menu on laptop",
+      "diy": "overwhelmed person cooking large party meal",
+      "urgent": "stressed person on phone at event venue"
+    },
+    "hashtags": {
+      "category": [
+        "#foodandhospitality",
+        "#eventplanning",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#catering",
+        "#caterer"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.637Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "meal-prep-service",
+    "name": "Meal prep service",
+    "category": "Food & hospitality",
+    "defaultBuyers": [
+      "lifestyle",
+      "diy",
+      "repeat",
+      "firsttime",
+      "corporate"
+    ],
+    "specificLines": {
+      "lifestyle": "I want healthy, chef-quality meals that match my brand",
+      "diy": "I spent Sundays meal prepping but it's just not working",
+      "repeat": "I need a reliable service I can count on every single week",
+      "firsttime": "I have no idea where to even start with meal prep services",
+      "corporate": "I need weekly team lunches with invoicing for the accounts department"
+    },
+    "brollIndustryQuery": "meal prep containers healthy food",
+    "brollBuyerQueries": {
+      "lifestyle": "fit person unboxing healthy meal delivery",
+      "diy": "person overwhelmed cooking in messy kitchen",
+      "repeat": "woman unpacking weekly meal delivery at door",
+      "firsttime": "confused person browsing meal service website",
+      "corporate": "office team eating catered lunch together"
+    },
+    "hashtags": {
+      "category": [
+        "#fooddelivery",
+        "#healthyeating",
+        "#mealplanning"
+      ],
+      "industry": [
+        "#mealprep",
+        "#mealpreservice"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:42.300Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "car-dealership",
+    "name": "Car dealership",
+    "category": "Automotive",
+    "defaultBuyers": [
+      "firsttime",
+      "price",
+      "lifestyle",
+      "skeptic",
+      "repeat"
+    ],
+    "specificLines": {
+      "firsttime": "Buying my first car, totally overwhelmed by the process",
+      "price": "Shopping three dealerships, lowest out-the-door price wins",
+      "lifestyle": "This truck says everything about who I am and want to be",
+      "skeptic": "Last dealer hid fees until signing, never again",
+      "repeat": "Leased here before, ready to upgrade and stay loyal"
+    },
+    "brollIndustryQuery": "car dealership showroom sales",
+    "brollBuyerQueries": {
+      "firsttime": "young adult test driving car nervously",
+      "price": "person comparing car prices on phone",
+      "lifestyle": "man driving new truck open road",
+      "skeptic": "customer reading contract carefully dealership",
+      "repeat": "couple shaking hands with car salesman"
+    },
+    "hashtags": {
+      "category": [
+        "#automotive",
+        "#carbuying",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#cardealership",
+        "#newcar"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.919Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "car-detailer",
+    "name": "Car detailer",
+    "category": "Automotive",
+    "defaultBuyers": [
+      "lifestyle",
+      "luxury",
+      "diy",
+      "investor",
+      "gift"
+    ],
+    "specificLines": {
+      "lifestyle": "My car reflects who I am, it needs to look perfect",
+      "luxury": "Only the best ceramic coating and paint correction will do",
+      "diy": "My DIY wash left swirl marks, now I need a real pro",
+      "investor": "Keeping my fleet spotless protects resale value long term",
+      "gift": "Booking a full detail for my partner's birthday surprise"
+    },
+    "brollIndustryQuery": "car detailing professional polish",
+    "brollBuyerQueries": {
+      "lifestyle": "person admiring clean shiny car",
+      "luxury": "luxury car receiving premium detailing service",
+      "diy": "person frustrated inspecting scratched car paint",
+      "investor": "business fleet of clean vehicles parked",
+      "gift": "person handing gift card smiling"
+    },
+    "hashtags": {
+      "category": [
+        "#automotiveservices",
+        "#smallbusiness",
+        "#localservices"
+      ],
+      "industry": [
+        "#cardetailing",
+        "#autodetailing"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.190Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "event-planner",
+    "name": "Event planner",
+    "category": "Lifestyle",
+    "defaultBuyers": [
+      "lifestyle",
+      "luxury",
+      "firsttime",
+      "diy",
+      "referral"
+    ],
+    "specificLines": {
+      "lifestyle": "I want my event to reflect who I truly am",
+      "luxury": "Only the finest details will do for my celebration",
+      "firsttime": "I have no idea where to even begin planning this",
+      "diy": "I tried planning it myself and it became a nightmare",
+      "referral": "My friend said you made her wedding absolutely perfect"
+    },
+    "brollIndustryQuery": "event planner decorating venue",
+    "brollBuyerQueries": {
+      "lifestyle": "stylish woman curating aesthetic party decor",
+      "luxury": "elegant ballroom floral arrangement setup",
+      "firsttime": "stressed couple looking at wedding planning checklist",
+      "diy": "overwhelmed person surrounded by party supplies",
+      "referral": "friends talking excitedly over coffee table"
+    },
+    "hashtags": {
+      "category": [
+        "#lifestyleservices",
+        "#eventplanning",
+        "#celebrationlife"
+      ],
+      "industry": [
+        "#eventplanner",
+        "#eventdesign"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.864Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "pet-trainer",
+    "name": "Pet trainer",
+    "category": "Lifestyle",
+    "defaultBuyers": [
+      "lifestyle",
+      "firsttime",
+      "diy",
+      "skeptic",
+      "gift"
+    ],
+    "specificLines": {
+      "lifestyle": "My dog reflects my values, I want the best trainer",
+      "firsttime": "New puppy owner, no idea where to even start",
+      "diy": "YouTube tricks stopped working, my dog is out of control",
+      "skeptic": "Last trainer took my money and nothing changed",
+      "gift": "Buying training sessions for my sister's new rescue dog"
+    },
+    "brollIndustryQuery": "dog trainer training pet",
+    "brollBuyerQueries": {
+      "lifestyle": "stylish owner walking well-behaved dog",
+      "firsttime": "overwhelmed person holding puppy leash",
+      "diy": "frustrated person training dog at home",
+      "skeptic": "person arms crossed watching dog trainer",
+      "gift": "person wrapping gift certificate smiling"
+    },
+    "hashtags": {
+      "category": [
+        "#lifestyle",
+        "#petcare",
+        "#smallbusiness"
+      ],
+      "industry": [
+        "#pettrainer",
+        "#dogtraining"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.685Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "dog-groomer",
+    "name": "Dog groomer",
+    "category": "Lifestyle",
+    "defaultBuyers": [
+      "lifestyle",
+      "repeat",
+      "diy",
+      "firsttime",
+      "gift"
+    ],
+    "specificLines": {
+      "lifestyle": "My dog's grooming reflects my personal style and standards",
+      "repeat": "I need a groomer I can trust every single month",
+      "diy": "Home bathing got out of hand, time to call a pro",
+      "firsttime": "Just got a puppy, no idea where to even start",
+      "gift": "Want to treat my friend's dog to a spa day"
+    },
+    "brollIndustryQuery": "dog groomer salon styling",
+    "brollBuyerQueries": {
+      "lifestyle": "stylish woman with well-groomed small dog",
+      "repeat": "happy dog owner booking appointment phone",
+      "diy": "person struggling bathing dog home",
+      "firsttime": "new puppy owner holding fluffy dog",
+      "gift": "person wrapping pet gift certificate"
+    },
+    "hashtags": {
+      "category": [
+        "#petcare",
+        "#petlifestyle",
+        "#selfcare"
+      ],
+      "industry": [
+        "#doggrooming",
+        "#doggroomer"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.673Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "category": "Tech & digital",
+    "defaultBuyers": [
+      "diy",
+      "skeptic",
+      "firsttime",
+      "project",
+      "investor"
+    ],
+    "specificLines": {
+      "diy": "Tried managing my own website, broke everything last week",
+      "skeptic": "Last freelancer ghosted me mid-project, never again",
+      "firsttime": "Never hired a developer before, no idea where to start",
+      "project": "Launching a new product line, need full tech stack built",
+      "investor": "Every hour of downtime is costing my business real money"
+    },
+    "brollIndustryQuery": "freelancer working laptop coding",
+    "brollBuyerQueries": {
+      "diy": "frustrated person staring broken laptop screen",
+      "skeptic": "business owner reviewing contract documents carefully",
+      "firsttime": "confused small business owner on computer",
+      "project": "entrepreneur planning project on whiteboard",
+      "investor": "business owner reviewing analytics dashboard ROI"
+    },
+    "hashtags": {
+      "category": [
+        "#techfreelancer",
+        "#digitalservices",
+        "#smallbusinesstech"
+      ],
+      "industry": [
+        "#freelancedeveloper",
+        "#hireafreelancer"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:42.271Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "course-creator",
+    "name": "Course creator",
+    "category": "Tech & digital",
+    "defaultBuyers": [
+      "diy",
+      "investor",
+      "skeptic",
+      "firsttime",
+      "project"
+    ],
+    "specificLines": {
+      "diy": "Built my course in Teachable, sales are flatlining badly",
+      "investor": "I need this course funnel generating passive income fast",
+      "skeptic": "Last course platform promised conversions, delivered nothing tangible",
+      "firsttime": "No idea how to package my knowledge into a sellable course",
+      "project": "Planning a full curriculum launch with membership site integration"
+    },
+    "brollIndustryQuery": "online course creator filming",
+    "brollBuyerQueries": {
+      "diy": "frustrated person at laptop late night",
+      "investor": "entrepreneur reviewing revenue dashboard online",
+      "skeptic": "business person arms crossed reviewing contract",
+      "firsttime": "person confused looking at online platform screen",
+      "project": "person planning on whiteboard with sticky notes"
+    },
+    "hashtags": {
+      "category": [
+        "#digitalmarketing",
+        "#onlinebusiness",
+        "#contentcreator"
+      ],
+      "industry": [
+        "#coursecreator",
+        "#onlinecourse"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.534Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "copywriter",
+    "name": "Copywriter",
+    "category": "Tech & digital",
+    "defaultBuyers": [
+      "diy",
+      "investor",
+      "firsttime",
+      "skeptic",
+      "corporate"
+    ],
+    "specificLines": {
+      "diy": "Wrote my own copy, conversions tanked, need a pro",
+      "investor": "Need copy that turns clicks into measurable revenue growth",
+      "firsttime": "Never hired a copywriter, no idea where to start",
+      "skeptic": "Last copywriter ghosted me after one mediocre draft",
+      "corporate": "Our team needs ongoing copy with proper invoicing and briefs"
+    },
+    "brollIndustryQuery": "copywriter typing laptop desk",
+    "brollBuyerQueries": {
+      "diy": "frustrated person staring at laptop screen",
+      "investor": "entrepreneur reviewing sales analytics dashboard",
+      "firsttime": "small business owner looking confused at computer",
+      "skeptic": "business owner arms crossed reading document skeptically",
+      "corporate": "professional team meeting office conference room"
+    },
+    "hashtags": {
+      "category": [
+        "#digitalmarketing",
+        "#techbusiness",
+        "#onlinebusiness"
+      ],
+      "industry": [
+        "#copywriter",
+        "#copywriting"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:41.032Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  },
+  {
+    "id": "tutor",
+    "name": "Tutor",
+    "category": "Tech & digital",
+    "defaultBuyers": [
+      "urgent",
+      "firsttime",
+      "investor",
+      "diy",
+      "corporate"
+    ],
+    "specificLines": {
+      "urgent": "My kid has a major exam in three days",
+      "firsttime": "Not sure what kind of tech tutor I even need",
+      "investor": "I want my team upskilled to boost productivity fast",
+      "diy": "Tried YouTube tutorials but still totally lost",
+      "corporate": "Need ongoing tech training for my whole staff"
+    },
+    "brollIndustryQuery": "tutor teaching technology laptop",
+    "brollBuyerQueries": {
+      "urgent": "stressed student studying last minute",
+      "firsttime": "confused person looking at computer screen",
+      "investor": "business owner reviewing team performance metrics",
+      "diy": "frustrated person watching online tutorial",
+      "corporate": "employees in office training session"
+    },
+    "hashtags": {
+      "category": [
+        "#techtraining",
+        "#digitaleducation",
+        "#onlinelearning"
+      ],
+      "industry": [
+        "#techtutor",
+        "#technologytutoring"
+      ]
+    },
+    "_enrichedAt": "2026-04-02T19:13:40.405Z",
+    "_enrichedBy": "claude-sonnet-4-6"
+  }
+]
